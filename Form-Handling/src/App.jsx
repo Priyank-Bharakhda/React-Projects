@@ -80,7 +80,7 @@ function App() {
         </div>
         <div className="p-4 lg:w-1/2">
           <h1 className="font-bold text-lg">Form data</h1>
-          <div className="mt-4 gap-4 flex flex-wrap overflow-y-auto h-150">
+          <div className="mt-4 gap-4 flex flex-wrap overflow-y-auto no-scrollbar scrollbar-hide h-150">
             {Task.map(function (elem, idx) {
               return (
                 <div
